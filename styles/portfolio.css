@@ -178,34 +178,26 @@ main {
   margin-top: 50px;
 }
 
-/*footer Style*/
-footer {
+/* footer styles */
+footer{
+  padding: 130px 230px;
   display: flex;
-  gap: 110px;
-  background: #fff8f3;
-  margin-top: 100px;
-  padding: 130px 200px;
+  gap: 100px;
+  background-color: #FFF8F3;
 }
-
-.footer-column {
+.footer-column{
   width: 50%;
 }
 
-.social-links a {
-  margin-right: 25px;
-}
-
-.contact-input[type="text"],
-.contact input[type="email"],
-textarea {
-  display: block;
-  margin-bottom: 25px;
-  padding: 18px 35px;
+input[type="text"], footer input[type=email]{
+  height: 64px;
   border-radius: 5px;
-  color: #757575;
-  background: white;
-  border: 0;
+  background-color: white;
+  display: block;
   width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
 
 /* responsive work */
